@@ -3,6 +3,7 @@ html {
 }
 
 body {
+    margin: 0;
     color: #322720;
 }
 
@@ -32,66 +33,32 @@ a:active {
     text-decoration: none;
 }
 
-h1 {
-    
-}
-
-h2 {
-    
-}
-
-h3 {
-    
-}
-
-p {
-    
-}
-
-ul {
-    
-}
-
-li {
-    
-}
-
 #wrapper {
-	width: 900px;
-	margin: 0 auto;
+    overflow: hidden;
+    width: 100%;
+}
+
+#main {
 	background: url(../img/wrapper_bg.jpg);
+    width: 2000px;
 }
 
-#imprint_wrapper {
-	margin: 10% auto;
-	padding: 60px;
-	width: 400px;
-	background: #e5e9ec;
-}
-
-
-#imprint_wrapper h1 {
-	font-size: 20px;
-	color: #ed1941;
-	margin-bottom: 15px;
-}
-
-#imprint_wrapper h2 {
-	font-size: 16px;
-	margin-bottom: 15px;
-}
-
-#imprint_wrapper p {
-	font-size: 13px;
+#header_inner,
+#hero_inner,
+#social_inner,
+#footer_inner {
+    width: 900px;
+	margin: 0 auto;
+/* 	background: aqua; */
 }
 
 header {
-    height: 328px;
-    background: url(../img/header_bg.png);
+	height: 330px;
+	background: url(../img/header_bg.jpg);
 }
 
 #hero {
-	height: 344px;
+	height: 342px;
 	background: url(../img/hero_bg.png);
 }
 
@@ -119,18 +86,18 @@ header {
 }
 
 #social {
-	height: 164px;
+	height: 145px;
 	background: url(../img/social_bg.png);
 }
 
 .social_follow {
-	padding: 40px 30px 30px 80px;
+	padding: 40px 30px 30px 130px;
 }
 
 .social_follow ul li {
 	display: inline;
 	list-style-type: none;
-	margin: 10px;
+	margin: 5px;
 }
 
 .social_follow ul {
@@ -139,12 +106,12 @@ header {
 
 #mc_embed_signup {
 	margin-top: -65px;
-	margin-left: 500px;
+	margin-left: 480px;
 }
 
 #mc_embed_signup input#mce-EMAIL.email {
 	margin-top: 5px;
-	width: 290px;
+	width: 240px;
 	height: 20px;
 }
 
@@ -153,12 +120,8 @@ header {
 }
 
 #app {
-	height: 739px;
+	height: 759px;
 	background: url(../img/app_bg.png);
-}
-
-#main {
-    
 }
 
 footer {
@@ -166,9 +129,26 @@ footer {
 	background: url(../img/footer_bg.png);
 }
 
+footer a,
+footer a:hover,
+footer a:active,
+footer a:visited {
+	color: #322720;
+}
+
 #footer_cr {
 	width: 400px;
 	margin: 0 auto;
 	padding-top: 390px;
 	text-align: center;
+}
+
+.shrink-wrap {
+   float: right;
+   position: relative;
+   left: -50%;
+}
+.shrink-wrap > div {
+   position: relative;
+   left: 50%;
 }
