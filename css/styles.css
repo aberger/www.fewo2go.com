@@ -1,0 +1,134 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    
+}
+
+html, body {
+	font-family: "Helvetica", Arial, sans-serif;
+	font-size: 14px;
+}
+
+a {
+    
+}
+
+a:hover {
+    
+}
+
+a:visited {
+    
+}
+
+a:active {
+    
+}
+
+h1 {
+    
+}
+
+h2 {
+    
+}
+
+h3 {
+    
+}
+
+p {
+    
+}
+
+ul {
+    
+}
+
+li {
+    
+}
+
+#wrapper {
+	width: 900px;
+	margin: 0 auto;
+	background: url(../img/wrapper_bg.jpg);
+}
+
+header {
+    height: 328px;
+    background: url(../img/header_bg.png);
+}
+
+#hero {
+	height: 344px;
+	background: url(../img/hero_bg.png);
+}
+
+.hero_description {
+	padding: 100px 30px 30px 310px;
+}
+
+.hero_description p {
+	margin-bottom: 10px;
+}
+
+.hero_features ul li {
+	display: inline;
+	list-style-type: none;
+	margin: 10px;
+}
+
+.hero_features ul {
+	text-align: center;
+}
+
+#social {
+	height: 164px;
+	background: url(../img/social_bg.png);
+}
+
+.social_follow {
+	padding: 40px 30px 30px 80px;
+}
+
+.social_follow ul li {
+	display: inline;
+	list-style-type: none;
+	margin: 10px;
+}
+
+.social_follow ul {
+	text-align: center;
+}
+
+#mc_embed_signup {
+	margin-top: -60px;
+	margin-left: 500px;
+}
+
+#mc_embed_signup input#mce-EMAIL.email {
+	margin-top: 5px;
+	width: 290px;
+	height: 20px;
+}
+
+#mc_embed_signup input#mc-embedded-subscribe.button {
+	display: none;
+}
+
+#app {
+	height: 739px;
+	background: url(../img/app_bg.png);
+}
+
+#main {
+    
+}
+
+footer {
+    height: 415px;
+	background: url(../img/footer_bg.png);
+}
