@@ -3,12 +3,13 @@ html {
 }
 
 body {
-    
+    color: #322720;
 }
 
 html, body {
 	font-family: 'PT Sans Narrow', "Helvetica", Arial, sans-serif;
 	font-size: 15px;
+	background: #322720;
 }
 
 a {
