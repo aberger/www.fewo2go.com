@@ -96,10 +96,15 @@ header {
 
 .hero_description {
 	padding: 95px 30px 30px 310px;
+	line-height: 1.2;
 }
 
 .hero_description p {
 	margin-bottom: 10px;
+}
+
+.hero_features {
+	margin-top: -20px;
 }
 
 .hero_features ul li {
