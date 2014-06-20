@@ -1,16 +1,17 @@
 html {
     font-size: 62.5%;
+	background: #322720;
+	background: url(../img/wrapper_bg.jpg);
+	background-position: center top;
 }
 
 body {
-    margin: 0;
     color: #322720;
 }
 
 html, body {
 	font-family: 'PT Sans Narrow', "Helvetica", Arial, sans-serif;
 	font-size: 15px;
-	background: #322720;
 }
 
 a {
@@ -34,13 +35,12 @@ a:active {
 }
 
 #wrapper {
-    overflow: hidden;
-    width: 100%;
+	width: 900px;
+	margin: 0 auto;
 }
 
 #main {
-	background: url(../img/wrapper_bg.jpg);
-    width: 2000px;
+    
 }
 
 #header_inner,
@@ -49,7 +49,6 @@ a:active {
 #footer_inner {
     width: 900px;
 	margin: 0 auto;
-/* 	background: aqua; */
 }
 
 header {
@@ -63,8 +62,15 @@ header {
 }
 
 .hero_description {
-	padding: 95px 30px 30px 310px;
-	line-height: 1.2;
+	padding: 35px 30px 30px 310px;
+	line-height: 1.1;
+}
+
+.hero_description h1 {
+	font-weight: 300;
+	font-size: 26px;
+	color: #fff;
+	margin-bottom: 30px;
 }
 
 .hero_description p {
@@ -77,8 +83,14 @@ header {
 
 .hero_features ul li {
 	display: inline;
+	float: left;
 	list-style-type: none;
 	margin: 10px;
+	width: 205px;
+}
+
+.hero_features ul li img {
+	margin-bottom: 5px;
 }
 
 .hero_features ul {
@@ -87,11 +99,16 @@ header {
 
 #social {
 	height: 145px;
-	background: url(../img/social_bg.png);
 }
 
 .social_follow {
-	padding: 40px 30px 30px 130px;
+	padding: 45px 30px 30px 40px;
+}
+
+.social_follow h1 {
+	font-weight: 300;
+	font-size: 26px;
+	color: #fff;
 }
 
 .social_follow ul li {
@@ -102,11 +119,13 @@ header {
 
 .social_follow ul {
 	text-align: center;
+	margin-top: -55px;
+	margin-left: 100px;
 }
 
 #mc_embed_signup {
 	margin-top: -65px;
-	margin-left: 480px;
+	margin-left: 580px;
 }
 
 #mc_embed_signup input#mce-EMAIL.email {
@@ -120,12 +139,34 @@ header {
 }
 
 #app {
-	height: 759px;
+	height: 600px;
 	background: url(../img/app_bg.png);
+	background-position: bottom;
+	line-height: 1.1;
+}
+
+#app_inner {
+	width: 250px;
+	padding: 160px 0 0 580px;
+}
+
+#app h1 {
+	text-align: right;
+	font-weight: 300;
+	font-size: 26px;
+	color: #fff;
+	margin: 25px 0 0 20px;
+}
+
+#app h2 {
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 400;
+	margin-bottom: 5px;
 }
 
 footer {
-    height: 415px;
+    height: 448px;
 	background: url(../img/footer_bg.png);
 }
 
@@ -141,14 +182,4 @@ footer a:visited {
 	margin: 0 auto;
 	padding-top: 390px;
 	text-align: center;
-}
-
-.shrink-wrap {
-   float: right;
-   position: relative;
-   left: -50%;
-}
-.shrink-wrap > div {
-   position: relative;
-   left: 50%;
 }
