@@ -183,3 +183,7 @@ footer a:visited {
 	padding-top: 390px;
 	text-align: center;
 }
+
+@media only screen and (max-device-width: 480px) {
+    html { background: url(../img/wrapper_bg_mobile.png); }
+}
