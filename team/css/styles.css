@@ -1,0 +1,88 @@
+/*********************************************************************************
+ * @Creation: 31.05.2013
+ * @Updated: 31.05.2013
+ * @Version: 1.0
+ *
+ * @Project:			http://aberger.me
+ *
+ * Stylesheets:
+ * @Author:				Alex Berger
+ * @Authorwebsite:		http://aberger.me
+ *
+ *********************************************************************************/
+ 
+* {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+	font-size: 62.5%;
+}
+
+html {
+	background: #272727;
+}
+
+html, body {
+	font-family: 'Source Code Pro', sans-serif;
+	color: #666666;
+	overflow: hidden;
+}
+
+a, 
+a:active, 
+a:visited {
+	color: #666666;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #666666;
+	text-decoration: underline;
+}
+
+#wrap {
+	margin: 40px auto;
+	padding: 60px;
+	width: 400px;
+	background: #e5e9ec;
+}
+
+#wrap h1 {
+	font-size: 20px;
+	color: #009aec;
+	margin-bottom: 15px;
+}
+
+#wrap h1 a, 
+#wrap h1 a:active, 
+#wrap h1 a:visited {
+	color: #009aec;
+	text-decoration: none;
+}
+
+#wrap h1 a:hover {
+	color: #009aec;
+	text-decoration: underline;
+}
+
+#wrap h2 {
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+
+#wrap p {
+	font-size: 13px;
+}
+
+@media screen and (max-width: 480px) {
+	#wrap {
+		position: static;
+		margin: 10px;
+		width: auto;
+	}
+}
