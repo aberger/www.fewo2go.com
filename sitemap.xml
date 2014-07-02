@@ -4,11 +4,8 @@
   xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url> 
     <loc>http://www.fewo2go.com</loc> 
-    
-    <image:image>
-       <image:loc>http://www.fewo2go.com/img/app_bg.png</image:loc>    
-    </image:image> 
     <image:image>
        <image:loc>http://www.fewo2go.com/img/app_bg.png</image:loc>    
     </image:image>
   </url>
+</urlset>
