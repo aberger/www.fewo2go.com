@@ -24,14 +24,14 @@
 		if ((navigator.userAgent.match(/iPhone/i)) || 
 			(navigator.userAgent.match(/iPod/i))) {
 			 if (document.cookie.indexOf("iphone_redirect=false") == -1) {
-			 	window.location = "https://itunes.apple.com/us/app/fewo2go/id889962859?ls=1&mt=8";
+			 	window.location = "http://www.fewo2go.com/iphone";
 			 }
 		}
 		
 		var ua = navigator.userAgent.toLowerCase();
 		var isAndroid = ua.indexOf("android") > -1;
 		if (isAndroid) {
-			window.location = 'https://play.google.com/store/apps/details?id=me.aberger.fewo2go';
+			window.location = 'http://www.fewo2go.com/android';
 		}
 	</script>
 </head>
