@@ -21,17 +21,19 @@
 		ga('create', 'UA-51865531-3', 'fewo2go.com');
 		ga('send', 'pageview');
 		
-		if ((navigator.userAgent.match(/iPhone/i)) || 
+		var ua = navigator.userAgent.toLowerCase();
+		var isAndroid = ua.indexOf("android") > -1;
+		if (isAndroid) {
+			window.location = 'http://www.fewo2go.com/android';
+		}
+		else if ((navigator.userAgent.match(/iPhone/i)) || 
 			(navigator.userAgent.match(/iPod/i))) {
 			 if (document.cookie.indexOf("iphone_redirect=false") == -1) {
 			 	window.location = "http://www.fewo2go.com/iphone";
 			 }
 		}
-		
-		var ua = navigator.userAgent.toLowerCase();
-		var isAndroid = ua.indexOf("android") > -1;
-		if (isAndroid) {
-			window.location = 'http://www.fewo2go.com/android';
+		else {
+			window.location = "http://www.fewo2go.com";
 		}
 	</script>
 </head>
