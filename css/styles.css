@@ -46,6 +46,7 @@ a:active {
 #header_inner,
 #hero_inner,
 #social_inner,
+#store_inner,
 #footer_inner {
     width: 900px;
 	margin: 0 auto;
@@ -138,6 +139,25 @@ header {
 
 }
 
+#store {
+	
+}
+
+#store_inner ul li {
+	display: inline;
+	list-style-type: none;
+	margin: 5px;
+}
+
+#store_inner ul {
+	margin-top: 70px;
+	margin-left: 90px;
+}
+
+#store_inner img {
+	width: 180px;
+}
+
 #app {
 	height: 600px;
 	background: url(../img/app_bg.png);
@@ -147,7 +167,7 @@ header {
 
 #app_inner {
 	width: 250px;
-	padding: 160px 0 0 580px;
+	padding: 45px 0 0 585px;
 }
 
 #app h1 {
